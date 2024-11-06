@@ -1,0 +1,375 @@
+:root {
+    --azul-header: #235390;
+    --verde-botao: #58CC02;
+    --verde-sombra: #58A700;
+    --azul-letra: #1CB0F6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+.banner-princ {
+    position: relative;
+    background-color: var(--azul-header);
+    background-image: url("../img/estrelas.svg");
+    height: 100vh;
+    width: 100%;
+}
+
+.princ-header {
+    background-color: var(--azul-header);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.head-content {
+    display: flex;
+    /* background-color: rgba(10, 10, 10, 0.2); */
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content div.content-img {
+    /* background-color: red;  */
+}
+
+.head-content div.content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(10, 10, 10, 0.2);  */
+    height: 242px;
+    width: 713px;
+}
+
+.head-content div.content-text .content-title h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.head-content div.content-text .green-button {
+    width: 320px;
+    height: 50px;
+    padding: 0;
+    margin: 5px;
+}
+
+.head-content div.content-text .button {
+    background-color: transparent;
+    width: 320px;
+    height: 50px;
+    border-radius: 16px;
+    margin: 5px;
+    color: aliceblue;
+    border: 2px solid #042C60;
+}
+
+.sec-header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 74px;
+    background-color: #0A4A82;
+    align-self: flex-end;
+}
+
+.sec-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    width: 80%;
+}
+
+.sec-content a {
+    text-decoration: none;
+    font-style: none;
+    color: aliceblue;
+}
+
+.site-lang h4 {
+    color: aliceblue;
+    font-size: 11px;
+}
+
+.nav-tittle img {
+    height: 27px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* estilização do meio */
+.middle-content .box-Content {
+    width: 80%;
+}
+
+.middle-content .box-Content.first {
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-text {
+    height: 126px;
+    width: 628px;
+}
+
+.first-title h2 {
+    font-weight: 700;
+}
+
+.first-text-content {
+    margin-top: 30px;
+}
+
+.first-text-content span {
+    border-bottom: 3px dotted #000;
+}
+
+
+.middle-content .box-Content.second {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-lov {
+    font-weight: 700;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.second .text-section {
+    width: 33%;
+    height: 475px;
+}
+
+.second .text-section.what-learn,
+.second .text-section.how-learn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.camp-texto .tittle-second-section h3 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.camp-texto .description-second p {
+    font-size: 14px;
+    color: rgb(75, 71, 71);
+}
+
+.second .img-comp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .text-section .filho {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.second .text-section .filho img {
+    height: 35px;
+    margin-right: 15px;
+    padding: 0;
+}
+.first-text-content .buttons{
+    display: flex;
+}
+.first-text-content .buttons button{
+    margin: 5px;
+}
+
+button.apple-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(197, 193, 193);
+    padding: 20px;
+    width: 192px;
+    height: 71px;
+    font-size: 12px;
+    border-radius: 16px;
+}
+button.apple-button img{
+    height: 35px;
+}
+button.apple-button p{
+    width: 105px;
+}
+
+button.apple-button span{
+    font-weight: 700;
+    border-bottom: none;
+    font-size: 16px;
+}
+
+button.google-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(197, 193, 193);
+    padding: 20px;
+    width: 192px;
+    height: 71px;
+    font-size: 12px;
+    border-radius: 16px;
+}
+button.google-button img{
+    height: 35px;
+}
+button.google-button p{
+    width: 95px;
+}
+
+button.google-button span{
+    font-weight: 700;
+    border-bottom: none;
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #003366; /* Cor azul similar à da imagem */
+    background-image: url("../img/estrelas.svg");
+    padding: 40px;
+    color: white;
+}
+
+.head-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.head-footer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.head-footer button{
+    width: 250px;
+    height: 50px;
+    padding: 0;
+    margin: 20px;
+}
+
+/* .green-button {
+    background-color: #32cd32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  
+} */
+
+.navigation-foot {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.links-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-nav h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.links-nav a {
+    color: rgba(228, 221, 221, 0.3);
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+
+.end-footer {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.end-footer h4 {
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.end-footer a {
+    color: rgba(228, 221, 221, 0.3);
+    margin: 5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+
+/* estilos genéricos */
+
+.green-button {
+    background-color: var(--verde-botao);
+    border: none;
+    box-shadow: 2px solid var(--verde-sombra);
+    padding: 20px;
+    border-radius: 16px;
+    color: aliceblue;
+    box-shadow: 10px 11px 0px -5px rgba(104,179,3,0.75);
+    -webkit-box-shadow: 10px 11px 0px -5px rgba(104,179,3,0.75);
+    -moz-box-shadow: 10px 11px 0px -5px rgba(104,179,3,0.75);
+}
+
+hr{
+    width: 70%;
+    height: 4px;
+    border: 2px solid grey ;
+}
+span.learn-more {
+    color: var(--azul-letra);
+    border-bottom: none;
+    font-weight: 600;
+}
+
+/* estilos genéricos */
